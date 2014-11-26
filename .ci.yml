@@ -1,5 +1,6 @@
 image: centos
 command:
+  - yum -y install git
   - wget -nc http://gnu.askapache.com/less/less-451.tar.gz
   - tar -xzf less-451.tar.gz
   - cd less-451
